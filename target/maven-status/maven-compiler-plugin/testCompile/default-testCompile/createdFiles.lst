@@ -1,6 +1,7 @@
 com/qa/hubspot/tests/LoginTests.class
 com/qa/hubspot/tests/BrokenLinks.class
 com/qa/hubspot/baseTest/BaseTest.class
+com/qa/hubspot/tests/SmokeTests.class
 com/qa/hubspot/baseTest/BaseTestBrokenLinks.class
 com/qa/hubspot/tests/GettersSetters.class
 com/qa/hubspot/tests/JavaBasics.class

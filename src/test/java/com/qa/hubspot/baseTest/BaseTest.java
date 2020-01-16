@@ -26,7 +26,7 @@ public class BaseTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    static void tearDown() {
+    public void tearDown() {
         log.info("Closing Browser");
         if (getDriver() != null) {
             getDriver().quit();

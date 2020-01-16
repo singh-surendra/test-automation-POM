@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.042" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.924" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
@@ -63,28 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginTests" time="5.915">
-    <failure message="expected [HubSpot Login123] but found [HubSpot Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HubSpot Login123] but found [HubSpot Login]
-	at com.qa.hubspot.tests.LoginTests.verifyLoginPageTitleTest(LoginTests.java:32)
-</failure>
-    <system-out><![CDATA[I am in onStart method hub spot regression Test
-I am in onStart method hub spot regression Test
-I am in onTestStart method verifyLoginPageTitleTest start
-I am in onTestStart method verifyLoginPageTitleTest start
-I am in onTestFailure method verifyLoginPageTitleTest failed
-Screenshot captured for test case:verifyLoginPageTitleTest
-I am in onTestFailure method verifyLoginPageTitleTest failed
-Screenshot captured for test case:verifyLoginPageTitleTest
-]]></system-out>
-    <system-err><![CDATA[905 [TestNG-test=hub spot regression Test-1] INFO com.qa.hubspot.baseTest.BaseTest - Starting Browser
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 48014
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 16, 2020 3:03:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.LoginTests" time="4.464"/>
-  <testcase name="loginCorrectCredentialsTest" classname="com.qa.hubspot.tests.LoginTests" time="5.44"/>
-  <testcase name="testSuccessPercentage" classname="com.qa.hubspot.tests.LoginTests" time="4.945"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.SmokeTests" time="5.545"/>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.SmokeTests" time="5.423"/>
 </testsuite>
