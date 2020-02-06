@@ -6,12 +6,10 @@ import com.qa.hubspot.listeners.TestAllureListener;
 import com.qa.hubspot.pages.login.LoginPage;
 import io.qameta.allure.*;
 import lombok.extern.slf4j.Slf4j;
+import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import static com.qa.hubspot.Base.BasePage.getDriver;
 
 
 @Listeners({TestAllureListener.class})
@@ -42,6 +40,14 @@ public class SmokeTests extends BaseTest {
     @Story("Story Name: To check sign up link")
     public void verifySignUpLinkTest() {
         Assert.assertTrue(loginPage.verifySignUpLink());
+    }
+
+
+    @Test
+    public void test(){
+
+     Assert.assertTrue(false,"this is just to test it");
+
     }
 
 }

@@ -3,11 +3,13 @@ package com.qa.hubspot.tests;
 import lombok.SneakyThrows;
 import org.testng.annotations.Test;
 
+import java.io.InputStream;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.stream.IntStream;
 
 public class JavaBasics {
 
@@ -208,6 +210,35 @@ public class JavaBasics {
     }
 
 
+    public static void fizzBuzzProblem(Integer n) {
+
+        if (n == 0){
+            System.out.println(n);
+            return;
+        }
+
+     IntStream.rangeClosed(1,n).forEach( i ->{
+            int fiveReminder = i % 5;
+            int threeReminder = i % 3;
+            if (fiveReminder == 0 && threeReminder == 0) {
+                System.out.println("FizzBuzz");
+            } else if (threeReminder == 0) {
+                System.out.println("Fizz");
+            } else if (fiveReminder == 0) {
+                System.out.println("Buzz");
+            } else System.out.println(i);
+
+        });
+    }
+
+    public static void main(String[] args) {
+        fizzBuzzProblem(15);
+    }
+
+    public static void testStringStream(){
+
+        String s= "Test";
+    }
 
 
 
