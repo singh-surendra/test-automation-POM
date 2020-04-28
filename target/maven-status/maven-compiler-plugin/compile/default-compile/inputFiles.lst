@@ -1,10 +1,10 @@
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/BrowserWait.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/home/HomePage.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/login/LoginPage.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/constants/Constants.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/home/HomePageLocators.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/TakeScreenshot.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/listeners/TestAllureListener.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/Base/BasePage.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/BrowserActions.java
-/Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/login/LoginPageLocators.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/TakeScreenshot.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/login/LoginPage.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/home/HomePageLocators.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/BrowserActions.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/login/LoginPageLocators.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/utils/BrowserWait.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/constants/Constants.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/listeners/TestAllureListener.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/pages/home/HomePage.java
+/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/main/java/com/qa/hubspot/Base/BasePage.java
