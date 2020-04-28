@@ -29,7 +29,6 @@ public class SmokeTests extends BaseTest {
     public void verifyLoginPageTitleTest() {
         String title = loginPage.getLoginPageTitle();
         Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE);
-
     }
 
 
@@ -46,7 +45,7 @@ public class SmokeTests extends BaseTest {
     @Test
     public void test(){
 
-     Assert.assertTrue(false,"this is just to test it");
+     Assert.assertTrue(true,"this is just to test it");
 
     }
 
