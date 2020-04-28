@@ -11,6 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
 
@@ -20,9 +21,8 @@ public class BasePage {
 
     public WebDriver initialize_driver() {
 
-        String userCurrDir = System.getProperty("user.dir");
-        System.setProperty("webdriver.chrome.driver", userCurrDir + "/src/main/resources/chromedriver/");
 
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
