@@ -4,6 +4,8 @@
     <list default="true" id="b5543b90-c350-4b9f-b33a-84e102a6a1c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/hubspot/tests/SmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/hubspot/tests/SmokeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testrunner/testng_smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testrunner/testng_smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.verifyLoginPageTitleTest">
+  <component name="RunManager" selected="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml">
     <configuration name="JavaBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.JavaBasics" />
       <module name="test-automation-hubSpot-allureReports" />
@@ -92,23 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-automation-hubSpot-allureReports" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.hubspot.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.hubspot.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.SmokeTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SmokeTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-automation-hubSpot-allureReports" />
       <extension name="coverage">
@@ -127,20 +112,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation-hubSpot-allureReports" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testrunner/testng_smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JavaBasics" />
-      <item itemvalue="TestNG.SmokeTests" />
       <item itemvalue="TestNG.SmokeTests.test" />
       <item itemvalue="TestNG.JavaBasics.fizzBuzzProblem" />
       <item itemvalue="TestNG.LoginTests.verifyLoginPageTitleTest" />
+      <item itemvalue="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml" />
         <item itemvalue="TestNG.LoginTests.verifyLoginPageTitleTest" />
         <item itemvalue="Application.JavaBasics" />
         <item itemvalue="TestNG.JavaBasics.fizzBuzzProblem" />
         <item itemvalue="TestNG.SmokeTests.test" />
-        <item itemvalue="TestNG.SmokeTests" />
       </list>
     </recent_temporary>
   </component>
@@ -158,22 +153,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588092406067">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588099465608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588092406067" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588092406065">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588099465608" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588099465606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588092406065" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588092406064">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588099465606" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588099465605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588092406064" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588092406066">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588099465605" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588099465607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588092406066" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588099465607" />
     <state x="420" y="207" width="600" height="486" key="find.popup" timestamp="1588092353132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

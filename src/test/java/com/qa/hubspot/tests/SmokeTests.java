@@ -27,6 +27,8 @@ public class SmokeTests extends BaseTest {
     @Story("Story Name: To check login page title")
     @Flaky
     public void verifyLoginPageTitleTest() {
+        long id = Thread.currentThread().getId();
+        System.out.println("Simple test-method Two. Thread id is: " + id);
         String title = loginPage.getLoginPageTitle();
         Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE);
     }
@@ -38,13 +40,16 @@ public class SmokeTests extends BaseTest {
     @Description("Test Case Description: Verify verify SignUp Link Test on Login Page")
     @Story("Story Name: To check sign up link")
     public void verifySignUpLinkTest() {
+        long id = Thread.currentThread().getId();
+        System.out.println("Simple test-method Two. Thread id is: " + id);
         Assert.assertTrue(loginPage.verifySignUpLink());
     }
 
 
     @Test
     public void test(){
-
+        long id = Thread.currentThread().getId();
+        System.out.println("Simple test-method Two. Thread id is: " + id);
      Assert.assertTrue(true,"this is just to test it");
 
     }
