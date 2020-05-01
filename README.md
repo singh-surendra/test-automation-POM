@@ -1,2 +1,2 @@
-# test-automation-AllureReport
-This is a simple project to understand Allure Reports in test automation
+# test-automation-POM
+This is a simple project to understand basic structure of POM framework
