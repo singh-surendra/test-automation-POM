@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot App Regression Test" duration-ms="16134" started-at="2020-04-28T18:57:33Z" finished-at="2020-04-28T18:57:49Z">
+  <suite name="Hub Spot App Regression Test" duration-ms="31011" started-at="2020-05-01T21:20:47Z" finished-at="2020-05-01T21:21:18Z">
     <groups>
     </groups>
-    <test name="hub spot regression Test" duration-ms="16134" started-at="2020-04-28T18:57:33Z" finished-at="2020-04-28T18:57:49Z">
+    <test name="hub spot regression Test" duration-ms="31011" started-at="2020-05-01T21:20:47Z" finished-at="2020-05-01T21:21:18Z">
       <class name="com.qa.hubspot.tests.SmokeTests">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="setUpBrowser" is-config="true" duration-ms="3261" started-at="2020-04-28T18:57:33Z" finished-at="2020-04-28T18:57:36Z">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="setUpBrowser" is-config="true" duration-ms="5349" started-at="2020-05-01T21:20:47Z" finished-at="2020-05-01T21:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="test" duration-ms="57" started-at="2020-04-28T18:57:37Z" finished-at="2020-04-28T18:57:37Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="test" duration-ms="62" started-at="2020-05-01T21:20:52Z" finished-at="2020-05-01T21:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-04-28T18:57:37Z" finished-at="2020-04-28T18:57:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="tearDown" is-config="true" duration-ms="1663" started-at="2020-05-01T21:20:52Z" finished-at="2020-05-01T21:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="setUpBrowser" is-config="true" duration-ms="1417" started-at="2020-04-28T18:57:37Z" finished-at="2020-04-28T18:57:38Z">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="setUpBrowser" is-config="true" duration-ms="3712" started-at="2020-05-01T21:20:54Z" finished-at="2020-05-01T21:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="verifyLoginPageTitleTest" duration-ms="4527" started-at="2020-04-28T18:57:38Z" description="verifying login page title" finished-at="2020-04-28T18:57:43Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="verifyLoginPageTitleTest" duration-ms="4525" started-at="2020-05-01T21:20:58Z" description="verifying login page title" finished-at="2020-05-01T21:21:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="tearDown" is-config="true" duration-ms="99" started-at="2020-04-28T18:57:43Z" finished-at="2020-04-28T18:57:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="tearDown" is-config="true" duration-ms="4717" started-at="2020-05-01T21:21:02Z" finished-at="2020-05-01T21:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="setUpBrowser" is-config="true" duration-ms="1411" started-at="2020-04-28T18:57:43Z" finished-at="2020-04-28T18:57:44Z">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="setUpBrowser" is-config="true" duration-ms="3391" started-at="2020-05-01T21:21:07Z" finished-at="2020-05-01T21:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="verifySignUpLinkTest" duration-ms="4830" started-at="2020-04-28T18:57:44Z" description="verifying sign up link test" finished-at="2020-04-28T18:57:49Z">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="verifySignUpLinkTest" duration-ms="4677" started-at="2020-05-01T21:21:11Z" description="verifying sign up link test" finished-at="2020-05-01T21:21:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@40dd3977]" name="tearDown" is-config="true" duration-ms="99" started-at="2020-04-28T18:57:49Z" finished-at="2020-04-28T18:57:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.SmokeTests@6fa590ba]" name="tearDown" is-config="true" duration-ms="2650" started-at="2020-05-01T21:21:15Z" finished-at="2020-05-01T21:21:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

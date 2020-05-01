@@ -15,7 +15,7 @@ public class BrowserWait extends BasePage {
 
 
     public static FluentWait getFluentWait() {
-        FluentWait fluentWait = new FluentWait(driver)
+        FluentWait fluentWait = new FluentWait(getDriver())
                 .withTimeout(Duration.ofSeconds(60))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class)

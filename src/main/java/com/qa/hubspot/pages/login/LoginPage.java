@@ -18,7 +18,7 @@ public class LoginPage extends BrowserWait {
     @Step("getting login page title step....")
     public String getLoginPageTitle() {
         waitUntilElementIsPresent(SIGN_UP_LINK_TEXT);
-        return driver.getTitle();
+        return getDriver().getTitle();
     }
 
 

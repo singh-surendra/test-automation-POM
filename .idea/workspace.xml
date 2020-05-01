@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5543b90-c350-4b9f-b33a-84e102a6a1c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/Base/BasePage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config/dev.config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config/qa.config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config/stage.config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/listeners/TesultsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/utils/OptionsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/utils/TimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/Base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/Base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/pages/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/pages/login/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/utils/BrowserWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/hubspot/utils/BrowserWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testrunner/testng_smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testrunner/testng_smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/hubspot/Base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/hubspot/Base/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Hub Spot App Regression Test/hub spot regression Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Hub Spot App Regression Test/hub spot regression Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Hub Spot App Regression Test/hub spot regression Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Hub Spot App Regression Test/hub spot regression Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Hub Spot App Regression Test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-automation-hubSpot-allureReports.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-automation-hubSpot-allureReports.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +58,21 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="prop&#9;FILE&#9;file:///Users/surendra.singh/Documents/Suri Automation Learning/Allure Reports/test-automation-AllureReport/src/main/java/com/qa/hubspot/config/config.properties" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580913480010" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.hubspot.utils" />
+      <recent name="com.qa.hubspot.listeners" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/qa/hubspot/config" />
       <recent name="$PROJECT_DIR$/src/test/resources/testrunner" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml">
+  <component name="RunManager" selected="TestNG.LoginTests.loginCorrectCredentialsTest">
     <configuration name="JavaBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.JavaBasics" />
       <module name="test-automation-hubSpot-allureReports" />
@@ -74,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasics.fizzBuzzProblem" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.loginCorrectCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-automation-hubSpot-allureReports" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +95,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.hubspot.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.JavaBasics" />
-      <option name="METHOD_NAME" value="fizzBuzzProblem" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginCorrectCredentialsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTests.verifyLoginPageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-automation-hubSpot-allureReports" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.hubspot.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qa.hubspot.tests.SmokeTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="verifyLoginPageTitleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.JavaBasics" />
-      <item itemvalue="TestNG.SmokeTests.test" />
-      <item itemvalue="TestNG.JavaBasics.fizzBuzzProblem" />
       <item itemvalue="TestNG.LoginTests.verifyLoginPageTitleTest" />
       <item itemvalue="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml" />
+      <item itemvalue="TestNG.SmokeTests.verifyLoginPageTitleTest" />
+      <item itemvalue="TestNG.LoginTests.loginCorrectCredentialsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests.loginCorrectCredentialsTest" />
+        <item itemvalue="TestNG.SmokeTests.verifyLoginPageTitleTest" />
         <item itemvalue="TestNG./Users/surendra.singh/Documents/SuriPersonal/Docker/test-automation-AllureReport/src/test/resources/testrunner/testng_smoke.xml" />
         <item itemvalue="TestNG.LoginTests.verifyLoginPageTitleTest" />
         <item itemvalue="Application.JavaBasics" />
-        <item itemvalue="TestNG.JavaBasics.fizzBuzzProblem" />
-        <item itemvalue="TestNG.SmokeTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,26 +181,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588099701504">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588367468361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588099701504" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588099701501">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588367468361" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588367468358">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588099701501" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588099701499">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588367468358" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588367468356">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588099701499" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588099701503">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588367468356" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588367468360">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588099701503" />
-    <state x="420" y="207" width="600" height="486" key="find.popup" timestamp="1588092353132">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588367468359" />
+    <state x="420" y="207" width="600" height="486" key="find.popup" timestamp="1588366750520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="420" y="207" width="600" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588092353132" />
+    <state x="420" y="207" width="600" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588366750520" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588366746910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588366746910" />
   </component>
   <component name="masterDetails">
     <states>
